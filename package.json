@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "webpack --mode development",
-    "build": "webpack"
+    "build": "webpack",
+    "start": "webpack-dev-server --hot"
   },
   "repository": {
     "type": "git",
@@ -37,4 +38,5 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
   }
+  
 }

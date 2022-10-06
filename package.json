@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "webpack --mode development",
+    "watch": "webpack --watch",
+    "start": "webpack serve --open",
+    "server": "node server.js",
     "build": "webpack"
   },
   "repository": {
@@ -37,4 +39,5 @@
     "webpack-cli": "^4.10.0",
     "webpack-dev-server": "^4.11.1"
   }
+  
 }

@@ -6,7 +6,7 @@ const removeTask = (id) => {
   const btn = document.getElementById(`btn-${id}`);
 
   totalTasks = totalTasks.filter((task) => task.index !== id);
-  /* Re allocated indices */
+
   totalTasks.forEach((i, j) => {
     i.index = j;
   });

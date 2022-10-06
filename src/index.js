@@ -20,7 +20,7 @@ const totalTasks = [
   },
   {
     description: 'Sleep',
-    completed: true,
+    completed: false,
     index: 4,
   },
 ];
